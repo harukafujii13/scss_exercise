@@ -1,4 +1,10 @@
-// @use 'base' as *;
+@use 'base' as *;
 
 // logo
 
+.logo {
+    width: 35%;
+    font-size: 1.5em;
+    color: $color-main;
+    padding-left: 20px;
+}

@@ -1,6 +1,31 @@
-// @use 'base' as *;
+@use 'base' as *;
 
 // header
+nav {
+    padding-top: 20px;
+    display: flex;
+
+    ul {
+        width: 50%;
+        display: inline-flex;
+    }
+
+    li {
+        font-size: 1em;
+        padding: 0 20px;
+    }
+
+    a {
+        color: $color-text;
+    }
+}
+
+main {
+    height: 100hv;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.1)),
+    url(https://images.unsplash.com/photo-1479044769763-c28e05b5baa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80)
+    no-repeat center/cover;
+}
 
 // welcome
 
